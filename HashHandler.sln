@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashHandler", "HashHandler\HashHandler.csproj", "{6A84B00E-3E51-4B10-9B94-CA21B6D81237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashHandler.Processor", "HashHandler.Processor\HashHandler.Processor.csproj", "{30041DD5-6558-4D8E-AE78-CE6485324771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashHandler.Shared", "HashHandler.Shared\HashHandler.Shared.csproj", "{EEF4C949-AACD-48EF-A9C9-6F891A213339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A84B00E-3E51-4B10-9B94-CA21B6D81237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A84B00E-3E51-4B10-9B94-CA21B6D81237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A84B00E-3E51-4B10-9B94-CA21B6D81237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A84B00E-3E51-4B10-9B94-CA21B6D81237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30041DD5-6558-4D8E-AE78-CE6485324771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30041DD5-6558-4D8E-AE78-CE6485324771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30041DD5-6558-4D8E-AE78-CE6485324771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30041DD5-6558-4D8E-AE78-CE6485324771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF4C949-AACD-48EF-A9C9-6F891A213339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF4C949-AACD-48EF-A9C9-6F891A213339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF4C949-AACD-48EF-A9C9-6F891A213339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF4C949-AACD-48EF-A9C9-6F891A213339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

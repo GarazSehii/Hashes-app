@@ -1,0 +1,20 @@
+<h1 id="tableLabel">Hashes grouped by day</h1>
+
+<p *ngIf="!hashesResponse"><em>Loading...</em></p>
+
+<table
+  class='table table-striped'
+  aria-labelledby="tableLabel">
+  <thead>
+  <tr>
+    <th>Date</th>
+    <th>Count</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let hashResponse of hashesResponse">
+    <td>{{ hashResponse.date }}</td>
+    <td>{{ hashResponse.count }}</td>
+  </tr>
+  </tbody>
+</table>
